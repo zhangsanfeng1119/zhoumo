@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            line-height: 1.6;
+            margin: 0.5em 0;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .social-links {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 20px;
+            transition: background-color 0.3s;
+        }
+        .social-links a:hover {
+            opacity: 0.7;
+        }
+        .social-links .github { background-color: #333; }
+        .social-links .linkedin { background-color: #0077b5; }
+        .social-links .twitter { background-color: #1da1f2; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 个人介绍 -->
+        <section class="section" id="about">
+            <h1>关于我</h1>
+            <p>你好！我是[你的名字]，一名[你的职业]。我专注于[你的专长或兴趣领域]，并拥有多年的[相关经验]。</p>
+        </section>
+
+        <!-- 工作经历 -->
+        <section class="section" id="experience">
+            <h2>工作经历</h2>
+            <p><strong>公司 A</strong> - [职位]（[开始年份] - [结束年份]）</p>
+            <p>描述：在这里填写你在公司 A 的职责和成就。</p>
+
+            <p><strong>公司 B</strong> - [职位]（[开始年份] - [结束年份]）</p>
+            <p>描述：在这里填写你在公司 B 的职责和成就。</p>
+        </section>
+
+        <!-- 教育经历 -->
+        <section class="section" id="education">
+            <h2>教育经历</h2>
+            <p><strong>[学校名称]</strong> - [学位]（[入学年份] - [毕业年份]）</p>
+            <p>描述：在这里填写你在学校的学习内容和成就。</p>
+        </section>
+
+        <!-- 社交媒体链接 -->
+        <section class="section" id="social">
+            <h2>社交媒体</h2>
+            <div class="social-links">
+                <a href="[GitHub 链接]" class="github" aria-label="GitHub">GitHub</a>
+                <a href="[LinkedIn 链接]" class="linkedin" aria-label="LinkedIn">LinkedIn</a>
+                <a href="[Twitter 链接]" class="twitter" aria-label="Twitter">Twitter</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
